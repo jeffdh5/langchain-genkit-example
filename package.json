@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@genkit-ai/googleai": "latest",
+    "@langchain/langgraph": "^0.2.34",
+    "genkit": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/menuGenerator.ts"
+  }
+}
